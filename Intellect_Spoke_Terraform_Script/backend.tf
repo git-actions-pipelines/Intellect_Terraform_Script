@@ -5,8 +5,8 @@ terraform {
   backend "azurerm" {
     # Backend configuration for Spoke state file
     # Uncomment and configure these values, or pass via -backend-config during terraform init
-    resource_group_name  = "srinivasan-rg"
-    storage_account_name = "tfstatessrivas"
+    resource_group_name  = "my-tf-rg"
+    storage_account_name = "tfstatesAnkits"
     container_name       = "tfstate-spoke"
     key                  = "spoke.terraform.tfstate"
   }
