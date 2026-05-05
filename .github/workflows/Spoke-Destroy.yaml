@@ -14,6 +14,7 @@ jobs:
   terraform:
     name: Spoke Destroy
     runs-on: self-hosted
+    environment: dev
 
     steps:
       - name: Checkout Code

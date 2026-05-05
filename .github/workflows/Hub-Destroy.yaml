@@ -14,6 +14,7 @@ jobs:
   terraform:
     name: Hub Destroy
     runs-on: self-hosted
+    environment: dev
 
     steps:
       - name: Checkout Code

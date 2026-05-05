@@ -15,6 +15,7 @@ jobs:
   terraform:
     name: Hub Apply
     runs-on: self-hosted
+    environment: dev
 
     steps:
       - name: Checkout Code
